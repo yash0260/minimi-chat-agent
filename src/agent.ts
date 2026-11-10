@@ -3,7 +3,7 @@ import { getRecentMessages, saveMessage } from './db.js';
 import { FUNCTION_DECLARATIONS, executeTool, toolStatusLabel } from './tools.js';
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '');
-const MODEL_NAME = process.env.MODEL || 'gemini-3.5-flash';
+const MODEL_NAME = process.env.MODEL || 'gemini-3-flash-preview';
 const MAX_ROUNDS = 6;
 
 function systemPrompt(): string {
