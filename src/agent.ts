@@ -35,6 +35,7 @@ function systemPrompt(): string {
     'Be concise and direct. Give the answer, not a description of your process.',
     'If you cannot find a past conversation, say so honestly.',
     'If web search is unavailable, note that you cannot verify live data.',
+    'Formatting rule: Write in clean, readable text. Do not wrap words in double asterisks (like **word**). Use clean wording, plain titles, or simple bullet points (•) instead.',
   ].join('\n');
 }
 
